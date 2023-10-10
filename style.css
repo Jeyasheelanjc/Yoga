@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300;1,400&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* border: 2px solid red; */
+}
+a, li{
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+:root{
+    --primary-color:#219c90;
+    --secondary-color:#e6fcea;
+    --light-black:#333333;
+    --black:#000000;
+    --font-nav:#6c6e71;
+    --white-color:#ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: var(--black) !important;
+
+}
+
+.button1{
+    padding: 5px 15px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none !important;
+    border-radius: 5px;
+}
+.navbar-brand, .nav-link{
+    color: var(--font-nav) !important;
+}
+.navContainer{
+    background: url(./img/slider1\ -\ Image.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cardContainer h5{
+    color: var(--primary-color);
+}
+.aboutContainer{
+    background-color: var(--secondary-color);
+}
+.priceContainer{
+    background-color: var(--secondary-color);
+}
+.iconsContainer{
+    background-color: var(--black);
+    color: var(--white-color);
+}
+.aboutContainer img{
+    width: 350px;
+}
+.studio{
+    width: 100% !important;
+}
+.galleryContainer h5{
+    color: var(--primary-color);
+}
+.detail{
+    justify-content: space-between;
+}
+.fullinks{
+    line-height: 4 !important;
+}
+.para{
+    padding-bottom: 20px;
+}
+.client{
+    background-color: var(--secondary-color);
+}
+.client img{
+    width: 100px;
+    margin-top: -50px;
+}
+.footer{
+    background-color: var(--light-black);
+    color: var(--white-color);
+}
+.footlink{
+    justify-content: space-between;
+}
